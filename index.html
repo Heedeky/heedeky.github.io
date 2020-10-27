@@ -2,7 +2,13 @@
   "http://www.w3.org/TR/html4/strict.dtd">
 <html>
  <head>
- <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+          <script src="https://unpkg.com/@vkontakte/vk-bridge/dist/browser.min.js"></script>
+
+<script>
+          // Sends event to client
+          vkBridge.send('VKWebAppInit');
+</script>
+   
 <div class="uCalc_309576"></div>
 <script>
     var widgetOptions309576 = {
